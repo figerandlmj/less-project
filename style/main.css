@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* 我是被编译的 */
+div {
+  padding: 0;
+  margin: 10px;
+}
+.box {
+  width: 300px;
+  border: 5px solid #f00;
+}
+.border {
+  border: 5px solid #f00;
+}
+.box2 {
+  width: 300px;
+  border: 5px solid #f00;
+  margin-left: 10px;
+}
+.test_hunhe {
+  border: 30px solid #ffff00;
+}
+.test_hunhe_03 {
+  border: 10px solid #008000;
+}
+.radius_test {
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.sanjiao {
+  border-width: 100px;
+  border-color: transparent transparent transparent #cccccc;
+  border-style: dashed dashed dashed solid;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.pipei {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+}
+.box_02 {
+  width: 560px;
+  color: #c2c2c2;
+}
+.list {
+  width: 600px;
+  margin: 30px auto;
+  padding: 0;
+  list-style: none;
+}
+.list li {
+  height: 30px;
+  line-height: 30px;
+  background-color: pink;
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+.list a {
+  float: left;
+}
+.list a:hover {
+  color: red;
+}
+.list span {
+  float: right;
+}
