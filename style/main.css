@@ -1,4 +1,15 @@
 @charset "utf-8";
+body {
+  background-color: red;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
 /* 我是被编译的 */
 div {
   padding: 0;
@@ -69,4 +80,23 @@ div {
 }
 .list span {
   float: right;
+}
+.test_arguments {
+  border: 40px #ff0000 solid;
+}
+.test_03 {
+  width: calc(300px-30px);
+}
+.test_impotant {
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  border-radius: 5px !important;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
 }
